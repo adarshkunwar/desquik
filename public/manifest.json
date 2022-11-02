@@ -1,6 +1,6 @@
 {
-  "name": "Chrome React SEO Extension",
-  "description": "The power of React and TypeScript for building interactive Chrome extensions",
+  "name": "Desquik",
+  "description": "An extension to interact with DeSo Blockchain on one tap.",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
