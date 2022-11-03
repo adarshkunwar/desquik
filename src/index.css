@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +9,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.button-unclicked {
+  margin-top: 10px;
+  height: 50px;
+  padding: 10px 30px;
+  border-radius: 22px;
+  background: linear-gradient(145deg, violet, blueviolet);
+  box-shadow: 0 5px 5px #000
+}
+
+/* .button-unclicked:active {
+  box-shadow: none;
+  background-color: aqua;
+} */
+
+
+.button-unclicked:hover {
+  margin-top: 15px;
+  box-shadow: 0 2px 5px #000
 }
 
 code {
